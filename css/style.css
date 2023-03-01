@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    background-color: #1A1A2E;
+}
+
+.nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu-item{
+    font-size: 60px;
+    padding: 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.nav-menu-item > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu-item:hover{
+    background-color: #0F3460;
+    transform: scale(1.1);
+}
+
+.active > a{
+    color: #E94560;
+}
+
