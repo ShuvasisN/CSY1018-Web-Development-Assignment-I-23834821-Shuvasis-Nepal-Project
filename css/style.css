@@ -34,5 +34,6 @@ body{
 
 .active > a{
     color: #E94560;
+    text-decoration: underline #E94560;
 }
 
