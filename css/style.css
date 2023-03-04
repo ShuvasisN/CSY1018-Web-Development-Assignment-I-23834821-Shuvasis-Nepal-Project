@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #0F3460;
 }
 
 .nav-bar{
@@ -34,6 +35,35 @@ body{
 
 .active > a{
     color: #E94560;
-    text-decoration: underline #E94560;
+}
+
+.footerdiv{
+    display: flex;
+    background-color: #0A2647;
+    justify-content: space-around;
+}
+
+.footertext{
+    color: white;
+}
+
+.footer-menu-item > a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-menu{
+    list-style: circle;
+}
+
+.footer-menu-item{
+    color: white;
+
+}
+
+.footer-menu-item :hover{
+    text-decoration: underline;
+
 }
 
