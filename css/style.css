@@ -122,3 +122,25 @@ input[type=text] {
     display: flex;
     justify-content: center;
 }
+
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shuvasisphoto{
+    width: 80%;
+    transition: 1s;
+    border-radius: 50%;
+    padding-left: 50px;
+}
+
+.introhead1{
+    font-size: 120px;
+    color: white;
+}
+
+.introhead2{
+    font-size: 120px;
+    color: white;
+}
