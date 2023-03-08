@@ -129,8 +129,30 @@ input[type=text] {
 }
 
 .shuvasisphoto{
-    width: 80%;
+    width: 50%;
     transition: 1s;
-    border-radius: 50%;
+    border-radius: 50%; 
+    transition: 1s;
+    align-items: center;
 }
 
+.introhead{
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 50px;
+}
+
+.shuvasisphoto:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 10px 5px white;
+}
+
+.pageline1{
+    margin: 10px 20px 40px 20px;
+    background-color: white;
+    padding: 5px;
+    border: white;
+}
