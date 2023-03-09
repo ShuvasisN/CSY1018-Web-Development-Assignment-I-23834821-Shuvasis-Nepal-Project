@@ -150,9 +150,26 @@ input[type=text] {
     box-shadow: 20px 10px 5px white;
 }
 
-.pageline1{
-    margin: 10px 20px 40px 20px;
-    background-color: white;
-    padding: 5px;
-    border: white;
+.expertise{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.expertisebox{
+    width: 20%;
+    height: 500px;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    box-shadow: 10px 10px 5px white, 2px 2px 2px #E94560 inset;
+    background-color: #0F3460;
+    transition: 1.5s;
+
+}
+
+.expertisebox:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px #E94560;
 }
