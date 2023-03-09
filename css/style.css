@@ -166,10 +166,32 @@ input[type=text] {
     box-shadow: 10px 10px 5px white, 2px 2px 2px #E94560 inset;
     background-color: #0F3460;
     transition: 1.5s;
+    text-align: center;
 
 }
 
 .expertisebox:hover{
     transform: scale(1.2);
     box-shadow: 10px 10px 10px #E94560;
+}
+
+.vegaslogo{
+    width: 50%;
+    padding-top: 40px;
+}
+
+.expertisehead{
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: floralwhite;
+    text-shadow: 2px white;
+    text-decoration: underline;
+}
+
+.expertisetext{
+    font-size: 24px;
+    padding: 0 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+
 }
