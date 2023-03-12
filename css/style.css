@@ -193,5 +193,53 @@ input[type=text] {
     padding: 0 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    text-align: center;
 
+}
+
+.hobbiesbox{
+    width: 30%;
+    height: 700px;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    box-shadow: 10px 10px 5px white, 2px 2px 2px #E94560 inset;
+    background-color: #0F3460;
+    transition: 1.5s;
+    text-align: center;
+
+}
+
+.hobbies{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.hobbiesbox:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px #E94560;
+}
+
+.contactbutton{
+    padding: 30px;
+    font-size: 78px;
+    text-align: center;
+    background-color: #E94560;
+    transition: 0.5s;
+}
+
+.buttoncentre{
+    display: flex;
+    justify-content: center;
+}
+
+.contactbutton a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactbutton:hover{
+    transform: scale(1.3);
 }
