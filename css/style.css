@@ -108,6 +108,7 @@ input[type=text] {
 
   textarea{
     width: 100%;
+    font-family: sans-serif;
   }
   
   label{
@@ -242,4 +243,22 @@ input[type=text] {
 
 .contactbutton:hover{
     transform: scale(1.3);
+}
+
+.mapicon{
+    width: 40%;
+}
+
+.contacticon{
+    width:40%;
+}
+
+.infobox{
+    text-align: center;
+}
+
+.infotext{
+    font-size: 28px;
+    color: white ;
+    text-decoration: solid underline;
 }
