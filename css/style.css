@@ -262,3 +262,92 @@ input[type=text] {
     color: white ;
     text-decoration: solid underline;
 }
+
+.valologo{
+    width: 60%;
+    padding-top: 40px;
+}
+
+.hobbiestext{
+    font-size: 28px;
+    padding: 0 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+
+.hobbieshead{
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif; 
+    color: floralwhite;
+    text-decoration: underline;
+}
+
+.educationdiv{
+     width: 80%;
+     height: 250px;
+     background-color: #0F3460;
+     padding: 20px;
+     display: flex;
+     border-radius: 80px;
+}
+
+.educationtop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.educationlogo1{
+    width: 25%;
+    padding-left: 10px;
+    border-radius: 80px;
+}
+
+.educationlogo2{
+    width: 15%;
+    padding-left: 10px;
+    border-radius: 80px;
+}
+
+.educationlogo3{
+    width: 20%;
+    padding-left: 10px;
+    border-radius: 80px;
+}
+
+.experiencetop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencelogo1{
+    width: 25%;
+    padding-left: 10px;
+    border-radius: 80px;
+}
+
+.experiencelogo2{
+    width: 15%;
+    padding-left: 10px;
+    border-radius: 80px;
+}
+
+.experiencelogo3{
+    width: 20%;
+    padding-left: 10px;
+    border-radius: 80px;
+
+}
+
+.experiencediv{
+    width: 80%;
+    height: 250px;
+    background-color: #0F3460;
+    padding: 20px;
+    display: flex;
+    border-radius: 80px;
+}
