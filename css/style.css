@@ -285,7 +285,7 @@ input[type=text] {
 
 .educationdiv{
      width: 80%;
-     height: 250px;
+     height: 350px;
      background-color: #0F3460;
      padding: 20px;
      display: flex;
@@ -299,21 +299,9 @@ input[type=text] {
     align-items: center;
 }
 
-.educationlogo1{
-    width: 25%;
-    padding-left: 10px;
-    border-radius: 80px;
-}
-
-.educationlogo2{
-    width: 15%;
-    padding-left: 10px;
-    border-radius: 80px;
-}
-
-.educationlogo3{
-    width: 20%;
-    padding-left: 10px;
+.educationlogo{
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 80px;
 }
 
@@ -324,30 +312,43 @@ input[type=text] {
     align-items: center;
 }
 
-.experiencelogo1{
-    width: 25%;
-    padding-left: 10px;
+.experiencelogo{
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 80px;
-}
-
-.experiencelogo2{
-    width: 15%;
-    padding-left: 10px;
-    border-radius: 80px;
-}
-
-.experiencelogo3{
-    width: 20%;
-    padding-left: 10px;
-    border-radius: 80px;
-
 }
 
 .experiencediv{
     width: 80%;
-    height: 250px;
-    background-color: #0F3460;
-    padding: 20px;
-    display: flex;
-    border-radius: 80px;
+     height: 350px;
+     background-color: #0F3460;
+     padding: 20px;
+     display: flex;
+     border-radius: 80px;
+}
+
+.column{
+    width: 25%;
+}
+
+.educationtext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: 36px;
+}
+
+.educationhead{
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.experiencetext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: 36px;
+}
+
+.experiencehead{
+    font-size: 48px;
+    text-decoration: underline;
 }
