@@ -35,6 +35,16 @@ body{
     transform: scale(1.05);
 }
 
+.weblogo{
+    float: left;
+    display: block;
+    font-size: 40px;
+    color: #E94560;
+    text-decoration: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 35px 60px;
+}
+
 .active > a{
     color: #E94560;
 }
