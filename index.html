@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\css\style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="nav-bar">
@@ -15,12 +16,18 @@
                 <li class="nav-menu-item"><a href="workexperience.html">Work Experience</a></li>
                 <li class="nav-menu-item"><a href="sitereport.html">Report</a></li>
             </ul>
+                <!-- for the hamburger icon -->
+                <div class="hamburger">
+                    <span class="lines"></span>
+                    <span class="lines"></span>
+                    <span class="lines"></span>
+                </div>
         </nav>
     </div>
     <hr class="pageline">
     <p class="introhead">Welcome to my website!</p>
     <div class="intro">
-        <img class="shuvasisphoto" src="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\img\Shuvasis.png" alt="Shuvasis Photo">
+        <img class="shuvasisphoto" src="./img/Shuvasis.png" alt="Shuvasis Photo">
     </div>   
     <div>
         <p class="introhead">I AM</p>
@@ -32,25 +39,25 @@
     </div>
     <div class="expertise">
         <div class="expertisebox">
-            <img class="vegaslogo" src="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\img\sony-vegas-logo-icon.png" alt="Vegas Logo">
+            <img class="vegaslogo" src="./img/sony-vegas-logo-icon.png" alt="Vegas Logo">
             <br>
             <p class="expertisehead">Sony Vegas Pro</p>
             <p class="expertisetext">I feel confident and excited to explore the tools and custonising features to improve the videos I produce for our clients.</p>
         </div>
         <div class="expertisebox">
-            <img class="vegaslogo" src="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\img\4373068_adobe_indesign_logo_logos_icon.png" alt="Indesign Logo">
+            <img class="vegaslogo" src="./img/4373068_adobe_indesign_logo_logos_icon.png" alt="Indesign Logo">
             <br>
             <p class="expertisehead">Adobe Indesign</p>
             <p class="expertisetext">InDesign's layout and design tools make it a valuable asset for creating professional-quality print and digital publications.</p>
         </div>
         <div class="expertisebox">
-            <img class="vegaslogo" src="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\img\adobe-illustrator-icon.png" alt="Illustrator Logo">
+            <img class="vegaslogo" src="./img/adobe-illustrator-icon.png" alt="Illustrator Logo">
             <br>
             <p class="expertisehead">Adobe Illustrator</p>
             <p class="expertisetext">Illustrator's powerful vector editing tools and extensive feature set makes it a valuable asset for graphic design and illustration work.</p>
         </div>
         <div class="expertisebox">
-            <img class="vegaslogo" src="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\img\adobe-photoshop-icon.png" alt="Photoshop Logo">
+            <img class="vegaslogo" src="./img/adobe-photoshop-icon.png" alt="Photoshop Logo">
             <br>
             <p class="expertisehead">Adobe Photoshop</p>
             <p class="expertisetext">Photoshop provides a platform for editing and enhancing images, making it a useful tool for graphic-designers and digital artists.</p>
@@ -63,12 +70,12 @@
     </div>
     <div class="hobbies">
         <div class="hobbiesbox">
-            <img class="valologo" src="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\img\guitar.jpg" alt="">
+            <img class="valologo" src="./img/guitar.jpg" alt="">
             <p class="hobbieshead">GUITAR</p>
             <p class="hobbiestext">It feels amazing to be able to play your favorite songs, whether it be alone at home, at a party, or on stage. Sharing and playing music is good for you, if you love it. Also, it’s just plain fun.</p>
         </div>
         <div class="hobbiesbox">
-            <img class="valologo"src="C:\Users\User\Desktop\CSY1018-Web-Development-Assignment-I-2023175-Shuvasis-Nepal-Project\img\valorant.jpg" alt="">
+            <img class="valologo" src="./img/valorant.jpg" alt="">
             <p class="hobbieshead">VALORANT</p>
             <p class="hobbiestext">Valorant is deep, complex and it always pushes you to do your best and become a better player. It has everything to offer great and intense matches, but it also requires and level of cooperation and commitment that won’t appeal all players.</p>
         </div>
@@ -80,7 +87,7 @@
     <br>
     <br>
     <div class="buttoncentre">
-        <button class="contactbutton"><a href="contact.html">Contact Me!</button></a>
+        <a href="contact.html"></a><button class="contactbutton">Contact Me!</button>
     </div>
     <br>
     <br>
@@ -89,8 +96,12 @@
     <footer><!--footer of the page-->
         <div class="footerdiv">
             <div>
-                <p class="footertext"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo eius sunt accusamus, est facere? Ut ipsa vitae voluptas repellendus harum nisi rerum, omnis veniam, modi neque obcaecati dolor amet.</p>
-            </div>  
+                <h4 class="socialtext"> Stay Connected:</h4>
+                <div class="socials">
+                    <a href="https://www.facebook.com/shuvasis.nepal" target="_blank"><img class="fsocialicons" src="./img/facebook_logo.png" alt="Visit me at Facebook"></a>
+                    <a href="https://www.instagram.com/n_shuvasis/" target="_blank"><img class="isocialicons" src="./img/insta_logo.png" alt="Visit me at Instagram"></a>
+                </div>>
+            </div> 
             <div>
                 <p class="footertext">Quick Lines</p>
                 <ul class="footer-menu">
@@ -103,5 +114,6 @@
             </div>
         </div>
     </footer>
+<script src="./js/index.js"></script>
 </body>
 </html>
